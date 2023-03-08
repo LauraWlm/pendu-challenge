@@ -49,7 +49,7 @@ const init = () => {
   // Display choices
   displayChoices(choicesMapping);
   // Display score/error
-  displayScore();
+  //displayScore();
 
   // Listen events
   //    - mouse events
@@ -121,11 +121,11 @@ if (isAllLettersFound) {
 
 const endGame = () => {
     document.querySelector('body').style.backgroundColor = 'red'
-    els.choices.innerHTML = `<h1> You're dead !!! </h1>`
+    els.choices.innerHTML = `<h2> You're dead !!! </h2>`
 };
 
 const winGame = () => {
-    els.choices.innerHTML = `<h1> You live !!! </h1>`
+    els.choices.innerHTML = `<h2> You live !!! </h2>`
 };
 
 window.addEventListener("load", () => {

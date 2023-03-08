@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <script defer src="./js/main.js"></script>
-    <script defer src="./js/initFunctions.js"></script>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <title>Pendu JavaScript</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Bienvenu pour une partie de pendu</h1>
+        <h1>Jeu du pendu
+        </h1>
     </header>
-    <main>
-        <div id="score">
-            
-        </div>
 
-        <div id="answer">
-            <ul></ul>
-        </div>
+    <div id="score"></div>
 
-        <div id="choices">
-            <p>Select a letter with your mouse or write with your keyboard.</p>
-            <ul></ul>
-        </div>
-    
+    <div id="wrapper">
+      <div id="answer">
+        <ul></ul>
+      </div>
 
-    </main>
-</body>
+      <div id="choices">
+       <p>Select a letter with your mouse or write with your keyboard.</p>
+        <ul></ul>
+      </div>
+    </div>
+
+    <script src="./js/initFunctions.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

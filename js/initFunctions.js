@@ -10,7 +10,9 @@ const displayChoices = (choicesMapping) => {
 };
 
 const displayScore = () => {
-    els.score.innerHTML = `${scoreCount}/${maxScore}`;
+    //els.score.innerHTML = `${scoreCount}/${maxScore}`;
+    els.score.innerHTML = `<img src="img/00${scoreCount}.png" alt"hangman" />`;
+    
 };
 
 
